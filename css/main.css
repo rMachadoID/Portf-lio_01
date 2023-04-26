@@ -13,8 +13,8 @@ html{
 }
 
 body{
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: 70vh;
+  min-width: 70vw;
 }
 
 .carousel-item {
@@ -31,6 +31,7 @@ body{
     margin-top: 4rem;
 }
 #valores{
+    min-height: 460px;
     margin-top: 4rem;
 }
 /* Formulario de contatos*/
