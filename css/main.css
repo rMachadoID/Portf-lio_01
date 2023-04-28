@@ -1,20 +1,21 @@
 @import url(./bootstrap.min.css);
 @import url(./custom.css);
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
-*{
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-  font-family: "Fredoka", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
 }
 
-html{
-  scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-body{
-  min-height: 70vh;
-  min-width: 70vw;
+body {
+    min-height: 70vh;
+    min-width: 70vw;
 }
 
 .carousel-item {
@@ -25,17 +26,21 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
-#sobre{
-    margin-top: 4rem;
+#sobre {
+    padding: 2rem;
 }
-#valores{
-    min-height: 460px;
-    margin-top: 4rem;
+
+#valores {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    /* padding: 8.5rem;   */
+    background-color: rgb(224, 224, 224);
 }
+
 /* Formulario de contatos*/
-h1.titulo-form{
+h1.titulo-form {
     text-align: center;
     margin-top: 30px;
 }
@@ -51,7 +56,7 @@ form label {
     flex-direction: column;
 }
 
-form label span{
+form label span {
     font-size: 1.2rem;
     margin-top: 1.3rem;
 }
